@@ -16,16 +16,16 @@ public class NewMain {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-         System.out.println("Probaremos todas las operaciones sql");
-        Evaluacion u=new Evaluacion();
+         System.out.println("sql");
+        Evaluacion e =new Evaluacion();
         
        ;
-        u.setNombre("Ana");
-        u.setCalificaion("ana2");
+        e.setNombre("Ana");
+        e.setCalificaion("7");
  
         
-     DAOUsuario daou=new DAOUsuario();
-     daou.guardar(u);
+     DAOEvaluacion daou=new DAOEvaluacion();
+     daou.guardar(e);
     }
     
 }

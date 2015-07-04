@@ -36,7 +36,7 @@ public class ServletExamen extends HttpServlet {
         
         Evaluacion e=new Evaluacion();
         e.setNombre(request.getParameter("nombre"));
-        e.setCalificaion(request.getParameter("califiacion"));
+        e.setCalificaion(request.getParameter("calificaion"));
      
         DAOEvaluacion dao=new DAOEvaluacion();
        
